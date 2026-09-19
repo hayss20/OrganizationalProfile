@@ -117,7 +117,7 @@ namespace OrganizationalProfile
             }
             finally
             {
-               
+               PrintControllerWithStatusDialog()
             }
         }
     }
