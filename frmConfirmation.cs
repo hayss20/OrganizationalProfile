@@ -17,8 +17,7 @@ namespace OrganizationalProfile
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-
-
+            MessageBox.Show("Your information has been submitted successfully!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void frmConfirmation_Load(object sender, EventArgs e)

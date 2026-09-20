@@ -117,7 +117,15 @@ namespace OrganizationalProfile
             }
             finally
             {
-               PrintControllerWithStatusDialog()
+                txtStudentNo.Clear();
+                txtLastName.Clear();
+                txtFirstName.Clear();
+                txtMiddleInitial.Clear();
+                cbPrograms.SelectedIndex = -1;
+                cbGender.SelectedIndex = -1;
+                txtContactNo.Clear();
+                txtAge.Clear();
+                datePickerBirthday.Value = DateTime.Now;
             }
         }
     }

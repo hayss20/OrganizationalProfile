@@ -49,9 +49,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F);
-            label1.Location = new Point(56, 65);
+            label1.Location = new Point(64, 87);
             label1.Name = "label1";
-            label1.Size = new Size(90, 21);
+            label1.Size = new Size(115, 28);
             label1.TabIndex = 0;
             label1.Text = "StudentNo.:";
             // 
@@ -59,9 +59,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(56, 97);
+            label2.Location = new Point(64, 129);
             label2.Name = "label2";
-            label2.Size = new Size(55, 21);
+            label2.Size = new Size(68, 28);
             label2.TabIndex = 1;
             label2.Text = "Name:";
             // 
@@ -69,9 +69,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F);
-            label3.Location = new Point(56, 131);
+            label3.Location = new Point(64, 175);
             label3.Name = "label3";
-            label3.Size = new Size(74, 21);
+            label3.Size = new Size(92, 28);
             label3.TabIndex = 2;
             label3.Text = "Program:";
             // 
@@ -79,9 +79,9 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(56, 166);
+            label4.Location = new Point(64, 221);
             label4.Name = "label4";
-            label4.Size = new Size(40, 21);
+            label4.Size = new Size(51, 28);
             label4.TabIndex = 3;
             label4.Text = "Age:";
             // 
@@ -89,9 +89,9 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F);
-            label5.Location = new Point(56, 198);
+            label5.Location = new Point(64, 264);
             label5.Name = "label5";
-            label5.Size = new Size(71, 21);
+            label5.Size = new Size(89, 28);
             label5.TabIndex = 4;
             label5.Text = "Birthday:";
             // 
@@ -99,9 +99,9 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F);
-            label6.Location = new Point(56, 232);
+            label6.Location = new Point(64, 309);
             label6.Name = "label6";
-            label6.Size = new Size(64, 21);
+            label6.Size = new Size(80, 28);
             label6.TabIndex = 5;
             label6.Text = "Gender:";
             // 
@@ -109,9 +109,9 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F);
-            label7.Location = new Point(56, 265);
+            label7.Location = new Point(64, 353);
             label7.Name = "label7";
-            label7.Size = new Size(94, 21);
+            label7.Size = new Size(120, 28);
             label7.TabIndex = 6;
             label7.Text = "Contact No.:";
             // 
@@ -119,9 +119,9 @@
             // 
             lblStudentNo.AutoSize = true;
             lblStudentNo.Font = new Font("Segoe UI", 12F);
-            lblStudentNo.Location = new Point(161, 65);
+            lblStudentNo.Location = new Point(184, 87);
             lblStudentNo.Name = "lblStudentNo";
-            lblStudentNo.Size = new Size(84, 21);
+            lblStudentNo.Size = new Size(107, 28);
             lblStudentNo.TabIndex = 7;
             lblStudentNo.Text = "StudentNo";
             // 
@@ -129,9 +129,9 @@
             // 
             lblName.AutoSize = true;
             lblName.Font = new Font("Segoe UI", 12F);
-            lblName.Location = new Point(161, 97);
+            lblName.Location = new Point(184, 129);
             lblName.Name = "lblName";
-            lblName.Size = new Size(52, 21);
+            lblName.Size = new Size(64, 28);
             lblName.TabIndex = 8;
             lblName.Text = "Name";
             // 
@@ -139,9 +139,9 @@
             // 
             lblProgram.AutoSize = true;
             lblProgram.Font = new Font("Segoe UI", 12F);
-            lblProgram.Location = new Point(161, 131);
+            lblProgram.Location = new Point(184, 175);
             lblProgram.Name = "lblProgram";
-            lblProgram.Size = new Size(71, 21);
+            lblProgram.Size = new Size(88, 28);
             lblProgram.TabIndex = 9;
             lblProgram.Text = "Program";
             // 
@@ -149,9 +149,9 @@
             // 
             lblAge.AutoSize = true;
             lblAge.Font = new Font("Segoe UI", 12F);
-            lblAge.Location = new Point(161, 166);
+            lblAge.Location = new Point(184, 221);
             lblAge.Name = "lblAge";
-            lblAge.Size = new Size(37, 21);
+            lblAge.Size = new Size(47, 28);
             lblAge.TabIndex = 10;
             lblAge.Text = "Age";
             // 
@@ -159,9 +159,9 @@
             // 
             lblBirthday.AutoSize = true;
             lblBirthday.Font = new Font("Segoe UI", 12F);
-            lblBirthday.Location = new Point(161, 198);
+            lblBirthday.Location = new Point(184, 264);
             lblBirthday.Name = "lblBirthday";
-            lblBirthday.Size = new Size(68, 21);
+            lblBirthday.Size = new Size(85, 28);
             lblBirthday.TabIndex = 11;
             lblBirthday.Text = "Birthday";
             // 
@@ -169,9 +169,9 @@
             // 
             lblGender.AutoSize = true;
             lblGender.Font = new Font("Segoe UI", 12F);
-            lblGender.Location = new Point(161, 232);
+            lblGender.Location = new Point(184, 309);
             lblGender.Name = "lblGender";
-            lblGender.Size = new Size(61, 21);
+            lblGender.Size = new Size(76, 28);
             lblGender.TabIndex = 12;
             lblGender.Text = "Gender";
             // 
@@ -179,18 +179,19 @@
             // 
             lblContactNo.AutoSize = true;
             lblContactNo.Font = new Font("Segoe UI", 12F);
-            lblContactNo.Location = new Point(161, 265);
+            lblContactNo.Location = new Point(184, 353);
             lblContactNo.Name = "lblContactNo";
-            lblContactNo.Size = new Size(87, 21);
+            lblContactNo.Size = new Size(111, 28);
             lblContactNo.TabIndex = 13;
             lblContactNo.Text = "ContactNo.";
             // 
             // btnSubmit
             // 
             btnSubmit.Font = new Font("Segoe UI", 12F);
-            btnSubmit.Location = new Point(106, 336);
+            btnSubmit.Location = new Point(184, 446);
+            btnSubmit.Margin = new Padding(3, 4, 3, 4);
             btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new Size(92, 31);
+            btnSubmit.Size = new Size(105, 41);
             btnSubmit.TabIndex = 14;
             btnSubmit.Text = "Submit";
             btnSubmit.UseVisualStyleBackColor = true;
@@ -198,9 +199,9 @@
             // 
             // frmConfirmation
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(336, 400);
+            ClientSize = new Size(497, 533);
             Controls.Add(btnSubmit);
             Controls.Add(lblContactNo);
             Controls.Add(lblGender);
@@ -216,6 +217,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmConfirmation";
             Text = "frmConfirmation";
             Load += frmConfirmation_Load;
